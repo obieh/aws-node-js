@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {nodejs "node"}
     environment {
-        AWS_ACCOUNT_ID="027618948712"
+        AWS_ACCOUNT_ID="053986730950"
         AWS_DEFAULT_REGION="us-east-1"
         IMAGE_REPO_NAME="myecr"
         IMAGE_TAG="latest"
