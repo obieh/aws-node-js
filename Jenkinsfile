@@ -7,7 +7,7 @@ pipeline {
         IMAGE_REPO_NAME="myecr"
         IMAGE_TAG="latest"
         
-        REPOSITORY_URI = "AWS_ACCOUNT_ID.dkr.ecr.us-east-1.amazonaws.com/myecr"
+        REPOSITORY_URI = "aws_account_id.dkr.ecr.us-east-1.amazonaws.com/myecr"
         
     }
    
