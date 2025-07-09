@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
-
+// Home page endpoint
 app.get('/', function (req, res) {
-    res.send('{ "response": "Welcome to my shenko telehealth" }');
+    res.send('{ "response": "Welcome to shenko telehealth" }');
 });
 
 app.get('/next', function (req, res) {
